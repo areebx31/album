@@ -1,1 +1,1 @@
-// Just a basic album 
+// Just a basic album  using java SCRIPT
