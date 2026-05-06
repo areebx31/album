@@ -26,7 +26,7 @@ body {
 .sidebar li {
   padding: 10px;
   cursor: pointer;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
 .sidebar li:hover {
