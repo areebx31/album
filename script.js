@@ -2,6 +2,7 @@ const songs = [
   { title: "Song 1", artist: "Artist A", src: "songs/song1.mp3" },
   { title: "Song 2", artist: "Artist B", src: "songs/song2.mp3" },
   { title: "Song 3", artist: "Artist C", src: "songs/song3.mp3" }
+  { title: "Song 3", artist: "Artist D", src: "songs/song4.mp3" }
 ];
 
 let currentIndex = 0;
@@ -26,7 +27,7 @@ songs.forEach((song, index) => {
   const li = document.createElement("li");
   li.textContent = song.title;
   li.addEventListener("click", () => loadSong(index));
-  playlist.appendChild(li);
+  playlist.appendChild(li);    
 });
 
 function loadSong(index) {
