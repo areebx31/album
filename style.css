@@ -14,7 +14,7 @@ body {
 .sidebar {
   width: 250px;
   background: #181818;
-  padding: 20px;
+  padding: 19.5px;
   overflow-y: auto;
 }
 
@@ -26,7 +26,7 @@ body {
 .sidebar li {
   padding: 10px;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 .sidebar li:hover {
