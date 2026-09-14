@@ -8,18 +8,18 @@ const songs = [
 let currentIndex = 0;
 let isPlaying = false;
 
-const audio = document.getElementById("audio");
-const playBtn = document.getElementById("play");
-const prevBtn = document.getElementById("prev");
-const nextBtn = document.getElementById("next");
-const title = document.getElementById("title");
-const artist = document.getElementById("artist");
-const playlist = document.getElementById("playlist");
-const progress = document.getElementById("progress");
-const progressContainer = document.getElementById("progress-container");
-const currentTimeEl = document.getElementById("current-time");
-const durationEl = document.getElementById("duration");
-const volume = document.getElementById("volume");
+const Audio = document.getElementById("audio");
+const PlayBtn = document.getElementById("play");
+const PrevBtn = document.getElementById("prev");
+const NextBtn = document.getElementById("next");
+const Title = document.getElementById("title");
+const Artist = document.getElementById("artist");
+const Playlist = document.getElementById("playlist");
+const Progress = document.getElementById("progress");
+const ProgressContainer = document.getElementById("progress-container");
+const CurrentTimeEl = document.getElementById("current-time");
+const DurationEl = document.getElementById("duration");
+const Volume = document.getElementById("volume");
 
 
 // Load Playlist
